@@ -1,6 +1,6 @@
-import Colors from "@/src/constants/Colors";
+import Colors from "@/constants/Colors";
 import { StyleSheet, Text, View, Image } from "react-native";
-import { Product } from "../types";
+import { Product } from "@/types";
 // interface Product {
 //   name: string;
 //   image: string;
