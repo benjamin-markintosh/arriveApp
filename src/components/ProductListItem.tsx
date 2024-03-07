@@ -1,6 +1,7 @@
 import Colors from "@/constants/Colors";
 import { StyleSheet, Text, View, Image } from "react-native";
 import { Product } from "@/types";
+import { Link } from "expo-router";
 // interface Product {
 //   name: string;
 //   image: string;
@@ -24,6 +25,7 @@ const ProductListItem = ({ product }: ProductListItemProps) => {
       />
       <Text style={styles.title}>{product.name}</Text>
       <Text style={styles.price}>${product.price}</Text>
+      {/* <Link href={"/product"}>Click for Details</Link> */}
     </View>
   );
 };
